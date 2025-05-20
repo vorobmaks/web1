@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Назва сторінки -->
+    <title>Add Team</title>
+
+    <!-- Підключення зовнішнього файлу стилів -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Заголовок сторінки -->
+    <header>
+        <h1>Add Team</h1>
+    </header>
+
+    <!-- Основна частина сторінки -->
+    <div class="container">
+
+        <!-- Форма додавання нової команди -->
+        <form method="post">
+            <!-- Поле для введення назви команди -->
+            <label for="name">Team Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <!-- Поле для введення міста -->
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required />
+
+            <!-- Поле для введення назви стадіону -->
+            <label for="stadium">Stadium:</label>
+            <input type="text" id="stadium" name="stadium" required />
+
+            <!-- Кнопка підтвердження додавання команди -->
+            <button type="submit">Add Team</button>
+        </form>
+
+        <!-- Посилання для повернення до головної сторінки зі списком команд -->
+        <div class="back-btn">
+            <a href="index.html">Back to Team List</a>
+        </div>
+    </div>
+</body>
+</html>
